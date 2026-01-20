@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 
@@ -20,18 +20,35 @@ nav .head{
     margin: 30px;
     color: white;
     margin-left: 200px;
+    font-size: 40px;
+    font-weight: 800;
     
 
+}
+.head span{
+    color: #ff3cf0;
 }
 nav .about{
     display: flex;
     gap: 30px;
     color: white;
+    font-size: 16px;
 }
 nav .btn-1{
     padding: 8px 16px;
+    color: white;
     border: none;
     border-radius: 20px;
     margin-right: 200px;
     background: linear-gradient(45deg, #f8ff3c, #d73295);
+}
+section{
+    display: flex;
+}
+section .banner-container{
+    background-color: black;
+}
+section .image-1{
+    background-color: black;
+    left: -50px;
 }

@@ -1,0 +1,37 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A0B2E;
+    margin: 0 auto;
+}
+nav .head{
+    margin: 30px;
+    color: white;
+    margin-left: 200px;
+    
+
+}
+nav .about{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+nav .btn-1{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 200px;
+    background: linear-gradient(45deg, #f8ff3c, #d73295);
+}

@@ -42,13 +42,39 @@ nav .btn-1{
     margin-right: 200px;
     background: linear-gradient(45deg, #f8ff3c, #d73295);
 }
-section{
-    display: flex;
+
+
+section {
+    
+    width: 100%;
+    max-width: 1600px;
+    height: 760px;   
 }
-section .banner-container{
-    background-color: black;
+.hero-images {
+    position: relative;    
+    width: 350px;          
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 101px;
+    margin-bottom: 40px;
+    
+            
 }
-section .image-1{
-    background-color: black;
-    left: -50px;
+
+.image-1{
+    position: relative;
+    z-index: 1;            
 }
+
+
+.image-2{
+    position: absolute;
+    top: 70px; 
+    left: 115px;                   
+    z-index: 2;
+ }  
+ .banner-msg {
+    margin-top: 30px;
+    text-align: center;                 
+ }         
+

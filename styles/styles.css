@@ -44,14 +44,15 @@ nav .btn-1{
 }
 
 
-section {
+ .hero-container{
     background: url(../assets/hero-bg.png);
     
     width: 100%;
     max-width: 1600px;
-    height: 760px;  
+     height: 762px;
     margin: 0 auto; 
     vertical-align: middle;
+    
 }
 .hero-images {
     position: relative;    
@@ -115,4 +116,52 @@ section {
 .banner-msg .btn-2, .banner-msg .btn-3{
     gap: 28px;
 
+}
+.banner-msg{
+    margin-bottom: 101px;
+}
+#about-podcast{
+    width: 100%;
+    max-width: 1600px;
+    background-color: #1A0B2E;
+}  
+#about-podcast .podcast-container .podcast{
+    width: 100%;
+    max-width: 1200px;
+   
+    margin:0 auto;
+    text-align: center;
+} 
+.podcast h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.podcast p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 160px;
+}
+.podcast-rating{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.podcast-rating .rating h2{
+    font-size: 48px;
+    font-weight: black;
+    color: #00FF88;
+
+}
+.podcast-rating .rating p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 120px;
 }

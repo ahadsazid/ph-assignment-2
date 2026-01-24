@@ -237,3 +237,94 @@ nav .btn-1{
          " grid-box-4  grid-box-4  grid-box-5"
 
 }
+.feature-host{
+    width: 100%;
+    max-width: 1600px;
+    height: 1276px;
+    background-color: #230E3D;
+}
+.feature-host .card-heading{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.card-container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+    
+    
+}
+.card-container .card{
+    width: 380px;
+    height: 440ox;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #351165;
+    
+    
+}
+.card-container .card h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 24px  24px 12px 24px;
+}
+.card-container .card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 12px 24px 12px 24px;
+    line-height: 24px;
+
+}
+.card-container .card span{
+    padding: 12px 24px 60px 24px;
+    color: #00FF88;
+}
+.host-heading{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.host-container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #351165;
+    border-radius: 20px;
+   
+}
+.host-container .host-image{
+    padding: 40px 24px 40px 20px;
+}
+.host-about h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+  
+}
+.host-about p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.host-about img{
+    gap: 8px;
+
+}
